@@ -1,0 +1,19 @@
+datasources:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    orgId: ussd
+    url: http://prometheus:9090
+    basicAuth: false
+    isDefault: true
+    editable: true
+
+  - name: Loki
+    type: loki
+    access: proxy
+    jsonData:
+      maxLines: 1000
+    basicAuth: false
+    url: http://loki:3100
+    isDefault: false
+    editable: true
