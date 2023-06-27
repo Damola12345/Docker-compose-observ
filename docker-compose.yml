@@ -52,7 +52,7 @@ services:
       - ./grafana/datasources:/etc/grafana/provisioning/datasources
     environment:
       - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=v6ZL^jY081q^
+      - GF_SECURITY_ADMIN_PASSWORD=
     ports:
       - 3000:3000
     networks:
