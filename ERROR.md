@@ -19,7 +19,7 @@ If you don't want to use sudo or the docker group, you can adjust the permission
 This command grants read and write permissions to all users, which might not be suitable for production systems due to potential security vulnerabilities.
 
 # ERROR 
-`Network observability_default  Error                                                                                                                                0.0s
+`Network observability_default  Error 
 failed to create network observability_default: Error response from daemon: Failed to Setup IP tables: Unable to enable SKIP DNAT rule:  (iptables failed: iptables --wait -t nat -I DOCKER -i br-6d34818cd0dd -j RETURN: iptables: No chain/target/match by that name.`
 
 To resolve this issue,
